@@ -59,7 +59,7 @@ class Game {
               var index =0;
         
               //x and y position of the cars
-              var x =200;
+              var x ;
               var y;
         
               for(var plr in allPlayers){
