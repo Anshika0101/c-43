@@ -14,8 +14,6 @@ var cars, car1, car2, car3, car4;
 var track, car1_img, car2_img, car3_img, car4_img;
 var bronze_img, silver_img, gold_img,ground1;
 
-var x;
-
 var xSet;
 var yVel, xVel;
 
