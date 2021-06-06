@@ -65,14 +65,6 @@ function setup(){
 function draw(){
    //start the game
    background(ground);
-   fill("white");
-   stroke("black");
-   textSize(30);
-   if(frameCount%30===0){
-      score=score+1;
-   }
-   text(" Time: "+score,displayWidth-200,30);
-   //start the game
  
   //start the game
   if (playerCount === 3 && finishedPlayers === 0) {
