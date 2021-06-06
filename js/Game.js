@@ -28,7 +28,15 @@ class Game {
               form = new Form()
               form.display();
             }
-        
+         if(gameState===1){
+              fill("white");
+              stroke("black");
+              textSize(30);
+              if(frameCount%30===0){
+                 score=score+1;
+              }
+              text(" Time: "+score,displayWidth-200,30);  
+            }
             car1 = createSprite(600,300);
             car1.addImage("car1",car1_img);
             car1.scale=0.3;
